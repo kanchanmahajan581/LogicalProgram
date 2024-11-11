@@ -1,0 +1,23 @@
+package com.code;
+
+public class PrintNumWithOutLoop {
+	
+	public static void printNum(int number)
+	{
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		int number=1;
+		
+		if(number<=100)
+		{
+			System.out.println(number);
+			number++;
+			printNum(number);
+			
+		}
+	}
+
+}

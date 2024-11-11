@@ -1,0 +1,78 @@
+package com.code.entity;
+
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+import jakarta.persistence.Entity;
+
+@EntityScan
+@Entity
+public class Contact {
+	
+	private int id;
+	private String fullName;
+	private String email;
+	private String message;
+	private int phone;
+	
+	public Contact() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Contact(int id, String fullName, String email, String message, int phone) {
+		super();
+		this.id = id;
+		this.fullName = fullName;
+		this.email = email;
+		this.message = message;
+		this.phone = phone;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public int getPhone() {
+		return phone;
+	}
+
+	public void setPhone(int phone) {
+		this.phone = phone;
+	}
+
+	@Override
+	public String toString() {
+		return "Contact [id=" + id + ", fullName=" + fullName + ", email=" + email + ", message=" + message + ", phone="
+				+ phone + "]";
+	}
+	
+	
+
+}

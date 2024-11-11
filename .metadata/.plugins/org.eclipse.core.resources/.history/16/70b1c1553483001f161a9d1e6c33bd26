@@ -1,0 +1,34 @@
+
+package com.code;
+
+import java.io.FileInputStream;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Insertarray {
+	
+	public static void main(String[] args) {
+		int n;
+		System.out.println("Enter the Value of n");
+		
+		
+		int arr[]=new int [n];
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		
+		System.out.println("Enter the values of Arrays");
+		for(int i=0; i<arr.length; i++)
+		{
+			arr[i]=sc.nextInt();			
+		}
+		
+		System.out.println(Arrays.toString(arr));
+		
+
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.code.dao;
+
+import com.code.controller.Econtroller;
+import com.code.entity.Enquiry;
+
+public class Edao {
+	
+	public Enquiry add()
+	{
+		return null;
+		
+	}
+
+}

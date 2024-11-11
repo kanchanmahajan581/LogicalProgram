@@ -1,0 +1,23 @@
+package com.code.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+
+import com.code.entity.Enquiry;
+
+@RequestMapping("/api")
+public class Econtroller {
+	
+	
+	@PostMapping("/add")
+	public Enquiry addData(@RequestBody Enquiry eq )
+	{
+		
+		return null;
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.array;
+
+import java.util.Scanner;
+
+public class FindNthElement {
+	public static void main(String[] args) {
+		
+		int arr[]= {5,6,7,8,2,32};
+		
+		Scanner 
+		int n=4;
+		
+		
+		if(n<=arr.length)
+		{
+			int e=arr[n-1];
+			System.out.println(e);
+			
+		}
+		
+		
+	}
+
+}

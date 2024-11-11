@@ -1,0 +1,13 @@
+package com.string;
+
+public class GivenString {
+	public static void main(String[] args) {
+		
+		String s="aBACbcEDed";
+		String replace=s.replaceAll("[^a-z]","");
+		System.out.println(replace);
+		
+		
+	}
+
+}

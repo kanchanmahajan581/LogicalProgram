@@ -1,0 +1,16 @@
+package com.code.service;
+
+import com.code.controller.Econtroller;
+
+public class Eservice {
+	
+	public Econtroller add()
+	{
+		return null;
+		
+	}
+	
+	
+	
+
+}

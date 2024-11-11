@@ -1,0 +1,27 @@
+package com.code;
+
+public class AllPaires {
+	
+	public static void printnum(int [] arr)
+	{
+		
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		int arr[]= {1,4,7,6,5};
+		printnum(arr);
+		
+		
+		
+		
+				
+	
+		
+	}
+
+}

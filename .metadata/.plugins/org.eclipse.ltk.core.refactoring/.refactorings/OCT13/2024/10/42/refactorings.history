@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.code.FindList&apos; to &apos;FindListStream&apos;&#x0D;&#x0A;- Original project: &apos;OCT13&apos;&#x0D;&#x0A;- Original element: &apos;com.code.FindList&apos;&#x0D;&#x0A;- Renamed element: &apos;com.code.FindListStream&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FindList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.code{FindList.java[FindList" matchStrategy="1" name="FindListStream" qualified="false" references="true" similarDeclarations="false" stamp="1728909160743" textual="false" version="1.0"/>
+</session>

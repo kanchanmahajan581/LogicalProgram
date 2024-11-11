@@ -1,0 +1,9 @@
+package com.code;
+
+public class AllPaires {
+	public static void main(String[] args) {
+		
+		int arr[]= {12,23,45,6,2,10};
+	}
+
+}

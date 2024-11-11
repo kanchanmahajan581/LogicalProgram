@@ -1,0 +1,41 @@
+package com.code.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+
+import com.code.entity.Enquiry;
+
+
+
+public class Edao {
+	
+	private SessionFactory factory;
+	
+	List<Enquiry> list=new ArrayList<Enquiry>();
+	
+	public Enquiry add(Enquiry enquiry)
+	{
+		Session session=null;
+		
+		try
+		{
+			session=factory.openSession();
+			session.save(enquiry);
+			session.beginTransaction().commit();
+			return enquiry;
+			
+			
+		}catch(Exception e)
+		{
+			
+		}
+		
+		return null;
+		
+	}
+
+}

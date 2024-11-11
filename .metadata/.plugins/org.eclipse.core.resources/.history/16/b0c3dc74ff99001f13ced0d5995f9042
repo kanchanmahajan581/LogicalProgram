@@ -1,0 +1,13 @@
+package com.code.dao;
+
+import com.code.controller.Econtroller;
+
+public class Edao {
+	
+	public Econtroller add()
+	{
+		return null;
+		
+	}
+
+}

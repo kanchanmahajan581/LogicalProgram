@@ -1,0 +1,28 @@
+package com.code23;
+
+public class StringPermutation {
+	
+	
+	public static void pre(String str , String res)
+	{
+		if(str.length()==0)
+		{
+			System.out.println(res);
+		}
+		else
+		{
+			for(int i=0; i<str.length()-1; i++)
+			{
+				String rem=str.substring(0, i)+str.substring(i+1);
+				pre(str, res+str.charAt(i));
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		String str="abc";
+		pre(str," ");
+	}
+
+}

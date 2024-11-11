@@ -1,0 +1,12 @@
+package com.array;
+
+public class FindFrequency {
+	
+	public static void main(String[] args) {
+		
+		int arr[]= {1,2,2,3,4,1,3,3};
+		
+		int fre[]=new int[arr.length];
+	}
+
+}

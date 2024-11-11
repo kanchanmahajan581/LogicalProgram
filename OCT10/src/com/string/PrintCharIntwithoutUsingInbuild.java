@@ -1,0 +1,27 @@
+package com.string;
+
+public class PrintCharIntwithoutUsingInbuild {
+	
+	public static void main(String[] args) {
+		
+		String s="Subbu123raj";
+		
+		StringBuffer s1=new StringBuffer();
+		StringBuffer s2=new StringBuffer();
+		
+		for(char ch :s.toCharArray())
+		{
+			if(Character.isLetter(ch))
+			{
+				s1.append(ch);
+			}
+			else
+			{
+				s2.append(ch);
+			}
+		}
+		System.out.println("Charcter => "+s1);
+		System.out.println("Charcter => "+s2);
+	}
+
+}

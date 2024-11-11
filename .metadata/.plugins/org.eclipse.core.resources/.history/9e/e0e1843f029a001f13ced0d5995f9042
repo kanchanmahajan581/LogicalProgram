@@ -1,0 +1,17 @@
+package com.code.service;
+
+import com.code.controller.Econtroller;
+import com.code.entity.Enquiry;
+
+public class Eservice {
+	
+	public Enquiry add()
+	{
+		return null;
+		
+	}
+	
+	
+	
+
+}

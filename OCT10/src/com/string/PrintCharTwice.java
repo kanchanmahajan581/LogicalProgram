@@ -1,0 +1,18 @@
+package com.string;
+
+public class PrintCharTwice {
+	public static void main(String[] args) {
+		
+		String s="Jva";
+		StringBuffer sb=new StringBuffer();
+		
+		for(int i=0; i<s.length(); i++)
+		{
+			char ch=s.charAt(i);
+			sb.append(ch).append(ch).append(ch);		 
+		}
+		System.out.println(sb.toString());
+		
+	}
+
+}
